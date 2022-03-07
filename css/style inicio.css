@@ -1,0 +1,77 @@
+
+
+.inicio {
+    width: 100%;
+    height: 100vh;
+    padding: 0 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0)),
+        url(../images/Fundo\ Pagina\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.objetivo {
+    width: 80%;
+    min-height: 100vh;
+    margin: 20px auto;
+    padding: 80px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.objetivo-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 6vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: #0da843;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.objetivo-list {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.objetivolist-item {
+    width: 40%;
+}
+
+.objetivo-list-item h3 {
+    font-size: 4vmin;
+    margin: 20px 0 0;
+}
+
+.objetivo-list-item p {
+    font-size: 3vmin;
+    margin: 10px 0 40px;
+}
+
+.btn {
+    border: 1px solid #0da843;
+    padding: 12px 40px;
+    border-radius: 30px;
+    background-color: #0da843;
+    font-size: 2.5vmin;
+    transition: .5s;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #0da843;
+}
+

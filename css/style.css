@@ -1,0 +1,264 @@
+
+/*chamada google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*reset CSS mini*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*tirar sublinhado do texto*/
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*tirar marcadores do texto*/
+
+ul, ol {
+    list-style: none;
+}
+
+/*header*/
+
+.header-top {
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    /* background-color: #8d07f6; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-title {
+    font-size: 2rem;
+
+
+ 
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li {
+    margin: 0 10px;
+}
+
+.header-nav a{
+    font-size: .9rem;
+    font-weight: 700;
+    transition: .10s;
+}
+
+.header-nav a:hover{
+    color: #0DA84B;
+ 
+}
+
+/* .active-scroll {
+    background-color: rgba(19, 18, 18, 0.87);
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .3);
+} */
+
+/*fim header*/
+
+/*hero*/
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0)),
+        url(../images/Fundo\ Pagina\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+
+}
+
+.hero-title {
+    margin-bottom: 2rem;
+    font-size: 3vmin;
+   
+
+}
+
+.hero-text{
+    margin-bottom: 2rem;
+    font-size: 2vmin;
+}
+
+.hero-link{
+    border: 1px solid #0da843;
+    background-color: #0da843;
+    padding: 12px 30px;
+    border-radius: 70px;
+    font-size: 3vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.hero-link:hover {
+    background-color: transparent;
+    
+}
+
+.hero-link-entrada {
+    margin-bottom: .5rem;
+    font-size: 2vmin;
+    padding: 12px 30px;
+    color:#0da843;
+}
+
+/*fim hero*/
+
+
+.login {
+    width: 100%;
+    height: 100vh;
+    padding: 0 500px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0)),
+        url(../images/Fundo\ Pagina\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    height: 50vh;
+    padding: 0 0px;
+    background-color: rgb(4, 90, 39, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.login-title {
+    font-size: 5vmin;
+    padding: 0 0px;
+    margin-bottom: 2rem;
+}
+
+
+.btn-primary {
+    font-size: 3vmin;
+    margin: 30px;
+    padding: 0 10px;
+    border: 1px solid #0da843;
+    background-color: #0da843;
+    padding: 12px 30px;
+    border-radius: 70px;
+    font-size: 3vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: .5s;
+    color: #fff
+
+
+
+}
+
+.link-esquece-senha {
+    color: #0da843;
+
+
+}
+
+
+/* cadastro */
+
+.cadastro {
+    width: 100%;
+    height: 100vh;
+    padding: 0 500px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0)),
+        url(../images/Fundo\ Pagina\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.cadastro-container {
+    width: 50%;
+    height: 50vh;
+    padding: 0 0px;
+    background-color: rgb(4, 90, 39, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: justify;
+    
+} 
+
+.cadastro-title {
+    font-size: 5vmin;
+    padding: 0 0px;
+    margin-bottom: 2rem;
+}
+
+
+.btn-cadastro {
+    font-size: 3vmin;
+    margin: 30px;
+    padding: 0 100px;
+    border: 1px solid #0da843;
+    background-color: #0da843;
+    padding: 12px 30px;
+    border-radius: 70px;
+    font-size: 3vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: .5s;
+    color: #fff;
+
+}
+
+.link-esquece-senha {
+    color: #0da843;
+
+}
+
+
